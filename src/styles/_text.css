@@ -1,0 +1,39 @@
+h1 {
+    text-transform: uppercase;
+    pointer-events: none;
+    position: absolute;
+    z-index: -100;
+    font-size: clamp(2rem, 9vw + 1rem, 13rem);
+    top: 50px;
+
+    color: antiquewhite;
+    height: fit-content;
+    width: fit-content;
+
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    text-shadow:
+        -3px -3px 0 #FFA59Ded,
+        3px -3px 0 #FFA59Ded,
+        -3px 3px 0 #FFA59Ded,
+        3px 3px 0 #FFA59Ded,
+
+}
+
+.front {
+    color: transparent; 
+    -webkit-text-stroke: 2px #F8F5F2; 
+    /* text-stroke: 2px white; */
+    z-index: 20;
+}
+
+@media (max-width: 900px)  {
+    h1{
+        top: 100px;
+    }
+}    
+
+
+
