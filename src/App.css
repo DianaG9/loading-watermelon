@@ -5,6 +5,7 @@
 @import "./styles/_loader_container.css";
 @import "./styles/_text.css";
 @import "./styles/_nav.css";
+@import "./styles/_credits.css";
 
 .container{
   background: linear-gradient(to top, #CB1630 0%, #FFA59D 100%);

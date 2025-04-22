@@ -41,14 +41,6 @@ function App() {
               <FontAwesomeIcon icon={faTwitter} />
             </a>
 
-            <a
-              href="https://www.artstation.com/williamestebanvaronvillamil9"
-              target="_blank"
-              aria-label="ArtStation"
-              className="nav_icon"
-            >
-              <FontAwesomeIcon icon={faArtstation} />
-            </a>
           </div>
         </div>
       </div>
@@ -62,6 +54,15 @@ function App() {
           <div className="loader"></div> 
         </div>
 
+        <div className="model_credits">
+          <a 
+            href="https://www.artstation.com/williamestebanvaronvillamil9"
+            target="_blank"                   
+            aria-label="ArtStation"
+            className="credits">
+              Model by William Varón
+          </a> 
+        </div>
       </div>
     </>
   );

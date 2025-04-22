@@ -1,0 +1,29 @@
+.model_credits{
+    width: 100%;
+    max-width: 1200px;
+    color: #F8F5F2;
+    padding: 1rem 0;
+
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+    display: flex;
+    justify-content: right;
+}
+
+.model_credits a{
+    color: #F8F5F2;
+    text-decoration: none;
+}
+
+.model_credits a:hover {
+    color: #a7e8bd;
+}
+
+@media screen and (max-width: 1200px){
+    .model_credits{
+        align-items: center;
+        justify-content: center;
+    }
+} 
