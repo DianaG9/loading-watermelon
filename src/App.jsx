@@ -16,7 +16,7 @@ function App() {
             >dialgoav</a> 
           <div className="nav_socials">
             <a
-              href="https://github.com/DianaG9"
+              href="https://github.com/dialgoav"
               target="_blank"
               aria-label="GitHub"
               className="nav_icon"
